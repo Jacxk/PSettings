@@ -1,0 +1,6 @@
+package psettings.minestom.enums;
+
+public enum SendSound {
+    NO_PERMISSION, BACK, ENABLE, DISABLE, RELOAD, DENY, NO_FLY, NO_CHAT, NO_DOUBLE_JUMP, INSIDE_MENU, PARTICLES_MENU,
+    ON_DOUBLE_JUMP, MENTION
+}

@@ -1,0 +1,76 @@
+MainMenu:
+  Slots: 18
+  Speed:
+    Material: SUGAR
+    Data: 0
+    Enabled: true
+    # Potion level, if 2 you get Speed II
+    Level: 1
+    Slot: 0
+    UsePermission: false
+    Permission: 'psettings.speed'
+  Chat:
+    Material: NAME_TAG
+    Data: 0
+    Enabled: true
+    Slot: 1
+    UsePermission: false
+    Permission: 'psettings.Chat'
+  Fly:
+    Material: FEATHER
+    Data: 0
+    Enabled: true
+    Slot: 2
+    UsePermission: false
+    Permission: 'psettings.fly'
+  Jump:
+    Material: DIAMOND_BOOTS
+    Data: 0
+    Enabled: true
+    # Potion level, if 2 you get Speed II
+    Level: 1
+    Slot: 3
+    UsePermission: false
+    Permission: 'psettings.jump'
+  Blood:
+    Material: REDSTONE
+    Data: 0
+    Enabled: true
+    Slot: 4
+    UsePermission: false
+    Permission: 'psettings.blood'
+  Radio:
+    Material: jukebox
+    Data: 0
+    Enabled: true
+    Slot: 5
+    UsePermission: false
+    Permission: 'psettings.Radio'
+  Visibility:
+    Material: WATCH
+    Data: 0
+    Enabled: true
+    Slot: 6
+    UsePermission: false
+    Permission: 'psettings.visibility'
+  DoubleJump:
+    Material: 415
+    Data: 0
+    Enabled: true
+    Slot: 7
+    UsePermission: false
+    Permission: 'psettings.DoubleJump'
+  Stacker:
+    Material: SADDLE
+    Data: 0
+    Enabled: true
+    Slot: 8
+    UsePermission: false
+    Permission: 'psettings.Stacker'
+    LaunchForce: 2
+Enabled:
+  Material: INK_SACK
+  Data: 10
+Disabled:
+  Material: INK_SACK
+  Data: 8

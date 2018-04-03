@@ -1,0 +1,19 @@
+# Type: sqlite for flatfile or mysql for an external database.
+# You should know this
+Type: 'sqlite'
+
+# Only edit if 'mysql' is set in Type
+MySQL:
+  # name of your database
+  Database: 'MyDataBaseName'
+  # ip of you MySQL database
+  Host: 'localhost'
+  # port of you MySQL database, if you don't have one leave it, commonly is 3306
+  Port: 3306
+  # username of you MySQL database
+  Username: 'user'
+  # password of you MySQL database
+  Password: 'password'
+  # time in minutes that you want the plugin to reconnect to the database
+  AutoReconnectTime: 30
+# Do not use this plugin's reload command, restart your server.

@@ -1,0 +1,195 @@
+# use 'none' to disable the prefix
+Prefix: '&cSettings >> '
+
+# This is the default language that the plugin will be translated if
+# there is not a translation for the player's language. Also for the console.
+# Use the name of the file located in Languages folder (without ".yml")
+Default-Language: 'en_us'
+
+# This is when a player has a player stacked
+PlayerInHead:
+  # Available types are Actionbar, Title, SubTittle, and Chat (but not recommended). Leave it
+  # empty to disable. You can use more than 1 type. (You can't use title and subtitle at the same time)
+  Type:
+  - 'actionbar'
+  - 'subtitle'
+  # Time before sending another message, title, etc. (in seconds)
+  Period: 1
+
+# Wanna have your plugin up to date? leave this true.
+Check-For-Updates:
+  Enable: true
+  # Available types: chat, book, title, actionbar. You can select multiple types.
+  MessageType:
+  - 'actionbar'
+  - 'book'
+  - 'title'
+  - 'chat'
+
+# If you have a BungeeCord Network using Party and Friends enabling this will
+# make when a player login, his friend online wont be hidden.
+# When you enable this you'll need to install another plugin and you'll need to fill out your
+# MySQL credentials in the new plugin's config file. Download plugin: https://www.spigotmc.org/resources/12597/
+PartyAndFriends-Hook: false
+
+# Set to true if you want to close the menu when a player clicks and option.
+CloseMenuOnClick: false
+
+# This values will be set by default when a new player joins the server.
+# True to be enabled, False to be disabled by default.
+JoinDefault:
+  MainMenu:
+    Speed: false
+    Jump: false
+    DoubleJump: false
+    Chat: true
+    Visibility: true
+    Stacker: false
+    Fly: false
+    Radio: true
+    Blood: true
+  ChatMenu:
+    Mention: true
+    StaffOnly: false
+    FriendsOnly: false
+  VisibilityMenu:
+    Privileged: true
+    Staff: true
+    Friends: true
+  ParticlesMenu:
+    FirstParticle: NONE
+
+# If true player will need permission to display the particle on double jump.
+UseParticlePermission: false
+
+# If true the player staked will be invisible for the other player.
+HidePlayerWhenStacked: true
+
+
+ChatMenu:
+  Mention:
+    PlayerChatDisabled: true
+    StaffOnlyMode: true
+    FriendsOnlyMode: true
+    Mentioned:
+      # available types: "actionbar", "chat" and "title and subtitle"
+      Type:
+      - 'actionbar'
+      - 'chat'
+      - 'title and subtitle'
+      StayTime: 4
+
+# Get an playerItems that opens the Settings menu.
+Join-Item:
+  Cooldown: 5
+  Enabled: true
+  Material: 'SLIME_BALL'
+  Data: 0
+  Slot: 5
+
+PlayerToggle-Item:
+  Cooldown: 5
+  Slot: 8
+  Use: true
+  Show:
+    Material: 'INK_SACK'
+    Data: 8
+  Hide:
+    Material: 'INK_SACK'
+    Data: 10
+
+# Custom commands to be used in each option/menu, Use 'none' to disable one by one
+# Default: true means that there is no permission needed to use it
+CustomCommands:
+  # If false all CustomCommands will be disabled
+  Enabled: true
+  Options:
+    Lang: 'lang'
+    Speed:
+      Default: true
+      Command: 'speed'
+    Jump:
+      Default: true
+      Command: 'jump'
+    DoubleJump:
+      Default: true
+      Command: 'doublejump'
+    Fly:
+      Default: true
+      Command: 'fly'
+    Chat:
+      Default: true
+      Command: 'chat'
+    Visibility:
+      Default: true
+      Command: 'visibility'
+    Stacker:
+      Default: true
+      Command: 'stacker'
+    Radio:
+      Default: true
+      Command: 'radio'
+  Menus:
+    MainMenu:
+      Default: true
+      Command: 'settings'
+    ChatMenu:
+      Default: true
+      Command: 'chatSettings'
+    VisibilityMenu:
+      Default: true
+      Command: 'visibilitySettings'
+    ParticlesMenu:
+      Default: true
+      Command: 'particles'
+
+# Sounds for each event, also with pitch
+Sounds:
+  Reload:
+    Pitch: 5
+    Sound: ENTITY_PLAYER_LEVELUP
+  Deny:
+    Pitch: 5
+    Sound: BLOCK_ANVIL_LAND
+  NoFly:
+    Pitch: 5
+    Sound: BLOCK_ANVIL_LAND
+  NoChat:
+    Pitch: 5
+    Sound: BLOCK_ANVIL_LAND
+  NoDoubleJump:
+    Pitch: 5
+    Sound: BLOCK_ANVIL_LAND
+  InsideMenu:
+    Pitch: 5
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  ParticlesMenu:
+    Pitch: 5
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  EnabledItem:
+    Sound: BLOCK_NOTE_PLING
+    SoundPitch: 1
+  DisabledItem:
+    Sound: BLOCK_NOTE_PLING
+    SoundPitch: 0.8
+  OnDoubleJump:
+    Sound: GHAST_FIREBALL
+    SoundPitch: 0.8
+  Back:
+    Sound: BLOCK_NOTE_PLING
+    SoundPitch: 3
+  OnMention:
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    SoundPitch: 0.8
+
+# Double jump settings.
+DoubleJump:
+  # Time in seconds before the player can double jump again.
+  # To bypass this use the permission "psettings.cooldown.doublejump.bypass"
+  Cooldown: 5
+  # Force of which the player will be launched.
+  Force: 1.5
+  # Particle that shows when double jumping.
+  Particle:
+    Use: true
+    OnJump: EXPLOSION_LARGE

@@ -1,0 +1,27 @@
+ChatMenu:
+  Slots: 18
+  Mention:
+    Enabled: true
+    Material: map
+    Data: 0
+    Slot: 2
+    UsePermission: false
+    Permission: 'psettings.mention'
+  FriendsOnly:
+    Enabled: true
+    Material: BOOK_AND_QUILL
+    Data: 0
+    Slot: 4
+    UsePermission: false
+    Permission: 'psettings.friendsonly'
+  StaffOnly:
+    Enabled: true
+    Material: paper
+    Data: 0
+    Slot: 6
+    UsePermission: false
+    Permission: 'psettings.staffonly'
+Back:
+  Material: ARROW
+  Data: 0
+  Slot: 9

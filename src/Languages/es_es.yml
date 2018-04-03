@@ -1,0 +1,277 @@
+Language:
+  Locale: español
+  Translator: By_Jack
+  Version: 1
+  Chosen: '&7Has elegido el lenguaje &a{locale} &7traducido por &e{translator}'
+  Available: '&7Lenguajes disponibles: &a'
+  Current: '&7Tu lenguaje actual: &e{current}'
+  NotValid: '&7El lenguaje &e{locale} &7no esta disponible.'
+Disabled-World: '&c&l(!)&r &cThis world is not enabled, if you think this is an error report it to the server admin.'
+NoPermission: '&c&l(!)&r &cNo tienes permisos para usar este comando.'
+Reload: '&9Todos los archivos recargados.'
+PluginNotFound:
+  Friends: '&7No se pudo encontrar ningun plugin soportado de &eAmigos.'
+# If enabled this messages will be displayed when using the command instead of the ones below.
+CustomCommands:
+  Enabled: true
+  NoPermission: '&c&l(!)&r &cNo tienes permisos para usar este comando.'
+  Options:
+    Speed:
+      Enabled: '&7Opcion de &eVelocidad &aActivada.'
+      Disabled: '&7Opcion de &eVelocidad &cDesactivada.'
+    Jump:
+      Enabled: '&7Opcion de &eSalto &aActivada.'
+      Disabled: '&7Opcion de &eSalto &cDesactivada.'
+    DoubleJump:
+      Enabled: '&7Opcion de &eDobleSalto &aActivada.'
+      Disabled: '&7Opcion de &eDobleSalto &cDesactivada.'
+    Visibility:
+      Enabled: '&7Opcion de &eVisibilidad &aActivada.'
+      Disabled: '&7Opcion de &eVisibilidad &cDesactivada.'
+    Chat:
+      Enabled: '&7Opcion de &eChat &aActivada.'
+      Disabled: '&7Opcion de &eChat &cDesactivada.'
+    Fly:
+      Enabled: '&7Opcion de &eVuelo &aActivada.'
+      Disabled: '&7Opcion de &eVuelo &cDesactivada.'
+    Radio:
+      Enabled: '&7Opcion de &eRadio &aActivada.'
+      Disabled: '&7Opcion de &eRadio &cDesactivada.'
+    Stacker:
+      Enabled: '&7Opcion de &eStacker &aActivada.'
+      Disabled: '&7Opcion de &eStacker &cDesactivada.'
+Player:
+  NotFound: '&cEse jugador no esta conectado.'
+  NotPlayer: '&cSolo jugadores puede usar este comando.'
+  VisibilityItemCooldown: '&7Debes esperar &c{seconds} segundos &7antes de usar esto otra vez.'
+  OptionOpenCooldown: '&7Debes esperar &c{seconds} segundos &7antes de usar esto otra vez.'
+  PlayerInHead: '&aTienes un jugador en la cabeza.'
+Item:
+  Got: '&7Has optenido el item de opciones.'
+  Given: '&7Le has dado el item de opciones a &e{target}.'
+  Disabled: '&cEl item de opciones esta desactivado. No puedes optenerlo.'
+MainMenu:
+  Fly:
+    Enabled: '&7Opcion de &eVuelo &aActivada.'
+    Disabled: '&7Opcion de &eVuelo &cDesactivada.'
+    CantFly: '&7No puedes activar el modo &eVuelo &7si tienes el &eDobleSalto &7activado.'
+  Speed:
+    Enabled: '&7Opcion de &eVelocidad &aActivada.'
+    Disabled: '&7Opcion de &eVelocidad &cDesactivada.'
+  Stacker:
+    Enabled: '&7Opcion de &eStacker &aActivada.'
+    Disabled: '&7Opcion de &eStacker &cDesactivada.'
+  Jump:
+    Enabled: '&7Opcion de &eSalto &aActivada.'
+    Disabled: '&7Opcion de &eSalto &cDesactivada.'
+  Visibility:
+    Enabled: '&7Opcion de &eVisibilidad &aActivada.'
+    Disabled: '&7Opcion de &eVisibilidad &cDesactivada.'
+  Chat:
+    Enabled: '&7Opcion de &eChat &aActivada.'
+    Disabled: '&7Opcion de &eChat &cDesactivada.'
+    CantChat: '&7El chat esta &cDesactivado. &7Para usar el chat &aActivalo &7en el menu de opciones.'
+  DoubleJump:
+    Enabled: '&7Opcion de &eDobleSalto &aActivada.'
+    Disabled: '&7Opcion de &eDobleSalto &cDesactivada.'
+    CantDoubleJump: '&7No puedes activar el &eDobleSalto &7si tienes el modo &eVuelo &7activado.'
+    Cooldown: '&7Debes esperar &c{seconds} segundos &7antes de hacer otro doble salto. Puedes comprar un rango para omitir esta restriccion.'
+  Radio:
+    Enabled: '&7Opcion de &eRadio &aActivada.'
+    Disabled: '&7Opcion de &eRadio &cDesactivada.'
+  Blood:
+    Enabled: '&7Opcion de &eSangre &aActivada.'
+    Disabled: '&7Opcion de &eSangre &cDesactivada.'
+VisibilityMenu:
+  Privileged:
+    Enabled: '&7Has &aActivado &7la visibilidad para los miembros con &ePrivilegios&7.'
+    Disabled: '&7Has &cDesactivado &7la visibilidad para los miembros con &ePrivilegios&7.'
+  Friends:
+    Enabled: '&7Has &aActivado &7la visibilidad para tus &eAmigos&7.'
+    Disabled: '&7Has &cDesactivado &7la visibilidad para tus &eAmigos&7.'
+  Staff:
+    Enabled: '&7Has &aActivado &7la visibilidad para los miembros del &eStaff&7.'
+    Disabled: '&7Has &cDesactivado &7la visibilidad para los miembros del &eStaff&7.'
+ChatMenu:
+  Mention:
+    Enabled: '&7Las &eMenciones &7han sido &aActivadas.'
+    Disabled: '&7Las &eMenciones &7han sido &cDesactivadas.'
+    PlayerChatDisabled: '&e{player} &7tiene el chat desactivado, el no puede ver tu mensaje.'
+    StaffOnlyMode: '&e{player} &7tiene el chat solo para staff, el no puede ver tu mensaje.'
+    FriendsOnlyMode: '&e{player} &7tiene el chat solo para amigos, el no puede ver tu mensaje.'
+    Mentioned:
+      Message: '&7Has sido mencionado por &e{player_displayname}'
+      Title: '&c&lAttencion'
+      Subtitle: '&6&l{player} &a&lTe ha mencionado'
+  FriendsOnly:
+    Enabled: '&7Chat de solo amigos &aActivado.'
+    Disabled: '&7Chat de solo amigos &cDesactivada.'
+  StaffOnly:
+    Enabled: '&7Chat de solo staff &aActivada.'
+    Disabled: '&7Chat de solo staff &cDesactivada.'
+ParticlesMenu:
+  Selected: '&7Has seleccionado la particula &e{selected}'
+  Removed: '&7Has &celiminado &7las particulas de doble salto.'
+  State:
+    Selected: '&a&lSeleccionado'
+    Unselected: '&c&lDeseleccionado'
+    Unavailable: '&c&lBloqueado'
+  Lore:
+  - '&7Clic para cambiar la'
+  - '&7particula de doble salto.'
+  - '&7'
+  - '&7Estado: {state}'
+  NoPermission: '&7Esta particula esta &c&lBloqueada&7. Puedes encontrarla en la &a&lMystery Box&7.'
+MenuItems:
+  Enabled:
+    Name: '&a&lActivado'
+    Lore:
+    - '&7Esta opcion esta &eActivada.'
+    - '&7Clic para &cDesactivar.'
+  Disabled:
+    Name: '&c&lDesactivado'
+    Lore:
+    - '&7Esta opcion esta &eDesactivada.'
+    - '&7Clic para &cActivar.'
+  Back:
+    Name: '&9&lAtras'
+    Lore:
+    - '&7Salir al menu'
+    - '&7principal.'
+  MainMenu:
+    Title: 'Menu de Opciones'
+    Speed:
+      Name: '&a&lVelocidad'
+      Lore:
+      - '&7Opten un multiplicador'
+      - '&7de velocidad.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Fly:
+      Name: '&a&lVolar'
+      Lore:
+      - '&7Te permite volar'
+      - '&7alrededor del lobby.'
+      - ''
+      - '&7Rango necesario: &eVIP'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Jump:
+      Name: '&a&lSalto'
+      Lore:
+      - '&7Opten un multiplicador'
+      - '&7de salto.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Visibility:
+      Name: '&a&lVisibilidad'
+      Lore:
+      - '&7Esconde o muestra a'
+      - '&7todos los jugadores.'
+      - ' '
+      - '&eHas Clic aqui para mas opciones.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Stacker:
+      Name: '&a&lApilador'
+      Lore:
+      - '&7Amontona a un jugador'
+      - '&7encima de tu cabeza al'
+      - '&7hacer clic derecho.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Chat:
+      Name: '&a&lChat'
+      Lore:
+      - '&7Cambia entre activar'
+      - '&7el chat.'
+      - ' '
+      - '&eHas Clic aqui para mas opciones.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Radio:
+      Name: '&a&lRadio'
+      Lore:
+      - '&7Alternar entre habilitar'
+      - '&7la radio del servidor.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Blood:
+      Name: '&c&lSangre'
+      Lore:
+      - '&7Cambia entre mostrar o'
+      - '&7no particulas de sangre'
+      - '&7al hacerte daño.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    DoubleJump:
+      Name: '&a&lDouble Salto'
+      Lore:
+      - '&7Alterna entre habilitar'
+      - '&7el doble salto.'
+      - ' '
+      - '&eHas Clic aqui para mas opciones.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+  ChatMenu:
+    Title: 'Menu del Chat'
+    Mention:
+      Name: '&a&lMenciones'
+      Lore:
+      - '&7Alterna entre recibir'
+      - '&7una notificacion cuando'
+      - '&7alguien escribe tu nombre'
+      - '&7en el chat.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    FriendsOnly:
+      Name: '&a&lSolo Amigos'
+      Lore:
+      - '&7Alterna entre solo'
+      - '&7recibir mensajes de'
+      - '&7tus amigos.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    StaffOnly:
+      Name: '&a&lSolo Staff'
+      Lore:
+      - '&7Alterna entre solo'
+      - '&7recibir mensajes de'
+      - '&7miembros del staff.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+  VisibilityMenu:
+    Title: 'Menu de Visibilidad'
+    Privileged:
+      Name: '&a&lPrivilegiados'
+      Lore:
+      - '&7Alterna entre mostrar'
+      - '&7todos los jugadores con'
+      - '&7privilegios.'
+      - ''
+      - '&7(jugadores con rango &eVIP&7)'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Friends:
+      Name: '&a&lAmigos'
+      Lore:
+      - '&7Alterna entre mostrar'
+      - '&7todos tus amigos.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+    Staff:
+      Name: '&a&lStaff'
+      Lore:
+      - '&7Alterna entre mostrar'
+      - '&7todos los miembros'
+      - '&7del staff.'
+      NoPermission: '&cNo tienes permiso para usar esta opcion. Intenta comprar un rango &e&lVIP'
+Join-Item:
+  Name: '&aOpciones &7(Clic Derecho)'
+  Lore:
+  - ''
+  - '&7Clic derecho para abrir'
+  - '&7el menu de opciones.'
+  - ''
+
+PlayerToggle-Item:
+  Show:
+    Name: '&fJugadores: &cOcultos &7(Clic Derecho)'
+    Lore:
+    - ''
+    - '&7Clic derecho para'
+    - '&7mostrar los jugadores.'
+    - ''
+  Hide:
+    Name: '&fJugadores: &aVisibles &7(Clic Derecho)'
+    Lore:
+    - ''
+    - '&7Clic derecho para'
+    - '&7ocultar los jugadores.'
+    - ''

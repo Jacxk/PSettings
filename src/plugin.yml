@@ -1,0 +1,82 @@
+name: PSettings
+main: psettings.minestom.PSettings
+version: 1.0.0
+author: By_Jack
+softdepends: [icJukeBox, FriendsAPIForPartyAndFriends]
+commands:
+  psettings:
+    usage: /<command>
+    description: main command, try it.
+permissions:
+  psettings.*:
+   children:
+     psettings.admin: true
+     psettings.hide.staff: true
+     psettings.hide.bypass: true
+     psettings.chat.staff: true
+     psettings.settings.all: true
+     psettings.cooldown.bypass: true
+     psettings.doublejump.particle: true
+     psettings.command.menus.particles: true
+     psettings.command.options.chat: true
+     psettings.command.options.jump: true
+     psettings.command.options.speed: true
+     psettings.command.options.fly: true
+     psettings.command.options.stacker: true
+     psettings.command.options.visibility: true
+     psettings.command.options.radio: true
+     psettings.command.options.doublejump: true
+  psettings.admin:
+    default: op
+  psettings.hide.staff:
+    default: op
+  psettings.hide.bypass:
+    default: op
+  psettings.chat.staff:
+    default: op
+  psettings.settings.all:
+    default: op
+  psettings.cooldown.bypass:
+    default: op
+  psettings.doublejump.particle:
+    default: op
+  psettings.command.menus.particles:
+    default: op
+  psettings.command.menus.main:
+    default: op
+  psettings.command.menus.chat:
+    default: op
+  psettings.command.menus.visibility:
+    default: op
+  psettings.command.options.chat:
+    default: op
+  psettings.command.options.jump:
+    default: op
+  psettings.command.options.doublejump:
+    default: op
+  psettings.command.options.speed:
+    default: op
+  psettings.command.options.stacker:
+    default: op
+  psettings.command.options.radio:
+    default: op
+  psettings.command.options.fly:
+    default: op
+  psettings.command.options.visibility:
+    default: op
+  psettings.command.options.*:
+    children:
+      psettings.command.options.chat: true
+      psettings.command.options.jump: true
+      psettings.command.options.speed: true
+      psettings.command.options.fly: true
+      psettings.command.options.stacker: true
+      psettings.command.options.visibility: true
+      psettings.command.options.radio: true
+      psettings.command.options.doublejump: true
+  psettings.command.menus.*:
+    children:
+      psettings.command.menus.particles: true
+      psettings.command.menus.main: true
+      psettings.command.menus.chat: true
+      psettings.command.menus.visibility: true

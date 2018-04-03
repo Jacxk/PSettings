@@ -1,0 +1,276 @@
+Language:
+  Locale: english
+  Translator: By_Jack
+  Version: 1
+  Chosen: '&7You have chosen the language &a{locale} &7translated by &e{translator}'
+  Available: '&7Languages supported: &a'
+  Current: '&7Current Language: &e{current}'
+  NotValid: '&7The language &e{locale} &7is not available.'
+Disabled-World: '&c&l(!)&r &cThis world is not enabled, if you think this is an error report it to the server admin.'
+NoPermission: '&c&l(!)&r &cYou don''t have permission to use this command.'
+Reload: '&9All files reloaded.'
+PluginNotFound:
+  Friends: '&7Could not find any supported &eFriends &7plugin.'
+# If enabled this messages will be displayed when using the command instead of the ones below.
+CustomCommands:
+  Enabled: true
+  NoPermission: '&c&l(!)&r &cYou don''t have permission to use this command.'
+  Options:
+    Speed:
+      Enabled: '&eSpeed &7has been &aEnabled.'
+      Disabled: '&eSpeed &7has been &cDisabled.'
+    Jump:
+      Enabled: '&eJump &7has been &aEnabled.'
+      Disabled: '&eJump &7has been &cDisabled.'
+    DoubleJump:
+      Enabled: '&eDoubleJump &7has been &aEnabled.'
+      Disabled: '&eDoubleJump &7has been &cDisabled.'
+    Visibility:
+      Enabled: '&eVisibility &7has been &aEnabled.'
+      Disabled: '&eVisibility &7has been &cDisabled.'
+    Chat:
+      Enabled: '&eChat &7has been &aEnabled.'
+      Disabled: '&eChat &7has been &cDisabled.'
+    Fly:
+      Enabled: '&eFly &7has been &aEnabled.'
+      Disabled: '&eFly &7has been &cDisabled.'
+    Radio:
+      Enabled: '&eRadio &7has been &aEnabled.'
+      Disabled: '&eRadio &7has been &cDisabled.'
+    Stacker:
+      Enabled: '&eStacker &7has been &aEnabled.'
+      Disabled: '&eStacker &7has been &cDisabled.'
+Player:
+  NotFound: '&cThat player is not online.'
+  NotPlayer: '&cOnly Players can use this command.'
+  VisibilityItemCooldown: '&7Wait &c{seconds} seconds &7before using this again.'
+  OptionOpenCooldown: '&7Wait &c{seconds} seconds &7before using this again.'
+  PlayerInHead: '&aYou have a player in your head.'
+Item:
+  Got: '&9You have got the playerItems menu.'
+  Given: '&9You have given the playerItems menu to &7{target}.'
+  Disabled: '&cThe playerItems menu is disabled. You can''t get the playerItems.'
+MainMenu:
+  Fly:
+    Enabled: '&eFly &7has been &aEnabled.'
+    Disabled: '&eFly &7has been &cDisabled.'
+    CantFly: '&7You can''t &aEnable &7the &eFly &7if you have &eDoubleJump &7enabled.'
+  Speed:
+    Enabled: '&eSpeed &7has been &aEnabled.'
+    Disabled: '&eSpeed &7has been &cDisabled.'
+  Stacker:
+    Enabled: '&eStacker &7has been &aEnabled.'
+    Disabled: '&eStacker &7has been &cDisabled.'
+  Jump:
+    Enabled: '&eJump &7has been &aEnabled.'
+    Disabled: '&eJump &7has been &cDisabled.'
+  Visibility:
+    Enabled: '&eVisibility &7has been &aEnabled.'
+    Disabled: '&eVisibility &7has been &cDisabled.'
+  Chat:
+    Enabled: '&eChat &7has been &aEnabled.'
+    Disabled: '&eChat &7has been &cDisabled.'
+    CantChat: '&7The chat is &cDisabled. &7To chat you need to &aEnable &7it in the settings.'
+  DoubleJump:
+    Enabled: '&eDoubleJump &7has been &aEnabled.'
+    Disabled: '&eDoubleJump &7has been &cDisabled.'
+    CantDoubleJump: '&7You can''t &aEnable &7the &eDoubleJump &7if you have &eFly &7enabled.'
+    Cooldown: '&7Wait &c{seconds} seconds &7before double jumping. You can buy a rank to bypass this.'
+  Radio:
+    Enabled: '&eRadio &7has been &aEnabled.'
+    Disabled: '&eRadio &7has been &cDisabled.'
+  Blood:
+    Enabled: '&eBlood &7has been &aEnabled.'
+    Disabled: '&eBlood &7has been &cDisabled.'
+VisibilityMenu:
+  Privileged:
+    Enabled: '&7You have &aEnabled &7visibility for &ePrivileged &7members.'
+    Disabled: '&7You have &cDisabled &7visibility for &ePrivileged &7members.'
+  Friends:
+    Enabled: '&7You have &aEnabled &7visibility for &eFriends &7members.'
+    Disabled: '&7You have &cDisabled &7visibility for &eFriends &7members.'
+  Staff:
+    Enabled: '&7You have &aEnabled &7visibility for &eStaff &7members.'
+    Disabled: '&7You have &cDisabled &7visibility for &eStaff &7members.'
+ChatMenu:
+  Mention:
+    Enabled: '&eMention &7has been &aEnabled.'
+    Disabled: '&eMention &7has been &cDisabled.'
+    PlayerChatDisabled: '&e{player} &7has the chat disabled, he can''t see the message.'
+    StaffOnlyMode: '&e{player} &7has the chat for only staff members, he can''t see the message.'
+    FriendsOnlyMode: '&e{player} &7has the chat for only his friends, he can''t see the message.'
+    Mentioned:
+      Message: '&7You have been mentioned by &e{player_displayname}'
+      Title: '&c&lAttention'
+      Subtitle: '&6&l{player} &a&lMentioned You'
+  FriendsOnly:
+    Enabled: '&eFriends Chat Only &7has been &aEnabled.'
+    Disabled: '&eFriends Chat Only &7has been &cDisabled.'
+  StaffOnly:
+    Enabled: '&eStaff Chat Only &7has been &aEnabled.'
+    Disabled: '&eStaff Chat Only &7has been &cDisabled.'
+ParticlesMenu:
+  Selected: '&7You have selected &e{selected} &7particle'
+  Removed: '&7You have &cRemoved &7your double jump particles.'
+  State:
+    Selected: '&a&lSelected'
+    Unselected: '&c&lUnselected'
+    Unavailable: '&c&lLocked'
+  Lore:
+  - '&7Click to change your'
+  - '&7double jump particle.'
+  - '&7'
+  - '&7State: {state}'
+  NoPermission: '&7This &eParticle &7is &c&lLocked&7. You can get it in the &a&lMystery Box&7.'
+MenuItems:
+  Enabled:
+    Name: '&a&lEnabled'
+    Lore:
+    - '&7This option is &eEnabled.'
+    - '&7Click to &cDisable.'
+  Disabled:
+    Name: '&c&lDisabled'
+    Lore:
+    - '&7This option is &cDisabled.'
+    - '&7Click to &eEnable.'
+  Back:
+    Name: '&9&lBack'
+    Lore:
+    - '&7Go back to the'
+    - '&7main menu.'
+  MainMenu:
+    Title: 'Settings Menu'
+    Speed:
+      Name: '&a&lSpeed'
+      Lore:
+      - '&7Gives you more'
+      - '&7Speed to explore'
+      - '&7the lobby easely.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Fly:
+      Name: '&a&lFly'
+      Lore:
+      - '&7Allows you to'
+      - '&7Fly across the lobby.'
+      - ''
+      - '&7Rank needed: &eVIP'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Jump:
+      Name: '&a&lJump'
+      Lore:
+      - '&7Gives you a jump'
+      - '&7boost.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Visibility:
+      Name: '&a&lVisibility'
+      Lore:
+      - '&7Toggle the Visibility'
+      - '&7of all online players.'
+      - ' '
+      - '&eClick here for more options'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Stacker:
+      Name: '&a&lStacker'
+      Lore:
+      - '&7Stack Players on top'
+      - '&7of your head when right'
+      - '&7clicked the player.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Chat:
+      Name: '&a&lChat'
+      Lore:
+      - '&7Toggle the chat to stop'
+      - '&7getting messages.'
+      - ' '
+      - '&eClick here for more options'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Radio:
+      Name: '&a&lRadio'
+      Lore:
+      - '&7Toggle the'
+      - '&7server music.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Blood:
+      Name: '&c&lBlood'
+      Lore:
+      - '&7Toggle to show or'
+      - '&7not blood particles'
+      - '&7when getting damage.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    DoubleJump:
+      Name: '&a&lDoubleJump'
+      Lore:
+      - '&7Toggle the double jump'
+      - '&7to jump even higher.'
+      - ' '
+      - '&eClick here for more options'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+  ChatMenu:
+    Title: 'Chat Menu'
+    Mention:
+      Name: '&a&lMention'
+      Lore:
+      - '&7Toggle between get'
+      - '&7a notification when'
+      - '&7someone writes your name'
+      - '&7in the chat.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    FriendsOnly:
+      Name: '&a&lFriends Only'
+      Lore:
+      - '&7Toggle between to'
+      - '&7only get friends'
+      - '&7messages.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    StaffOnly:
+      Name: '&a&lStaff Only'
+      Lore:
+      - '&7Toggle between to'
+      - '&7only get staff member''s'
+      - '&7messages.'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+  VisibilityMenu:
+    Title: 'Visibility Menu'
+    Privileged:
+      Name: '&a&lPrivileged'
+      Lore:
+      - '&7Toggle between show'
+      - '&7all privileged players'
+      - ''
+      - '&7(player with &eVIP &7rank)'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Friends:
+      Name: '&a&lFriends'
+      Lore:
+      - '&7Toggle between show'
+      - '&7all your friends'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+    Staff:
+      Name: '&a&lStaff'
+      Lore:
+      - '&7Toggle between show'
+      - '&7all staff member'
+      NoPermission: '&cYou Don''t have permission to use this option. Try Buying a &e&lVIP &crank'
+Join-Item:
+  Name: '&aOptions &7(Right Click)'
+  Lore:
+  - ''
+  - '&7Right click to open'
+  - '&7the setting menu.'
+  - ''
+
+PlayerToggle-Item:
+  Show:
+    Name: '&fPlayers: &cHidden &7(Right Click)'
+    Lore:
+    - ''
+    - '&7Right click to show'
+    - '&7all players.'
+    - ''
+  Hide:
+    Name: '&fPlayers: &aVisible &7(Right Click)'
+    Lore:
+    - ''
+    - '&7Right click to hide'
+    - '&7all players.'
+    - ''

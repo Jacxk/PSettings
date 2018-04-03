@@ -1,0 +1,27 @@
+VisibilityMenu:
+  Slots: 18
+  Privileged:
+    Material: 395
+    Data: 0
+    Enabled: true
+    Slot: 2
+    UsePermission: false
+    Permission: 'psettings.privileged'
+  Friends:
+    Material: BOOK_AND_QUILL
+    Data: 0
+    Enabled: true
+    Slot: 4
+    UsePermission: false
+    Permission: 'psettings.friends'
+  Staff:
+    Material: paper
+    Data: 0
+    Enabled: true
+    Slot: 6
+    UsePermission: false
+    Permission: 'psettings.staff'
+Back:
+  Material: ARROW
+  Data: 0
+  Slot: 9

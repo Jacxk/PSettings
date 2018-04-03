@@ -1,0 +1,89 @@
+# Title of the inventory menu
+Title_Menu: 'Particles Menu'
+# Amount of slots in the inventory menu (must be 9, 18, 27, etc.)
+Slots_Menu: 27
+ParticlesMenu:
+  # This is just a random name, this must be different form each other
+  'NONE':
+    # Material of the item to be show https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    Material: INK_SACK
+    # Variant of the material above. Example: WOOD:5, 5 is the variant
+    Data: 6
+    # Name of the Particle
+    Name: '&4&lRemove'
+    # Slot of where the item will be
+    Slot: 8
+    # If true this will be unlocked for everyone
+    Default: true
+    Permission: "psettinsg.particle.remove"
+    Particle: NONE
+  '1':
+    Material: slime_ball
+    Data: 0
+    Name: '&2&lSlime'
+    Slot: 0
+    Default: true
+    Permission: "psettinsg.particle.slime"
+    Particle: SLIME
+    # Price: 20 Not Implemented Yet
+  '2':
+    Material: 35
+    Data: 4
+    Name: '&a&lR&e&la&b&li&d&ln&a&lb&e&lo&b&lw'
+    Slot: 1
+    Default: false
+    Permission: "psettinsg.particle.rainbow"
+    Particle: redstone
+    # Price: 20 Not Implemented Yet
+  '3':
+    Material: 260
+    Data: 0
+    Name: '&d&lHeart'
+    Slot: 2
+    Default: false
+    Permission: "psettinsg.particle.heart"
+    NoPermission: '&7This &eParticle &7is &c&lLocked&7. You can get it in the &a&lMystery Box&7.'
+    Lore:
+    - '&7Click to change your'
+    - '&7double jump particle.'
+    - '&7'
+    - '&7State: {state}'
+    Particle: HEART
+    # Price: 20 Not Implemented Yet
+  '4':
+    Material: 377
+    Data: 0
+    Name: '&6&lFlame'
+    Slot: 3
+    Default: false
+    Permission: "psettinsg.particle.flame"
+    Particle: FLAME
+    # Price: 20 Not Implemented Yet
+  '5':
+    Material: 25
+    Data: 0
+    Name: '&9&lNote'
+    Slot: 4
+    Default: false
+    Permission: "psettinsg.particle.note"
+    Particle: note
+    # Price: 20 Not Implemented Yet
+  '6':
+    Material: emerald
+    Data: 0
+    Name: '&a&lHappy Villager'
+    Slot: 5
+    Default: false
+    Permission: "psettinsg.particle.barrier"
+    Particle: VILLAGER_HAPPY
+    # Price: 20 Not Implemented Yet
+
+Back:
+  Material: arrow
+  Data: 0
+  Slot: 22
+# This item will be displayed when the player doesn't have permission to the particle.
+LockedItem:
+  Enable: true
+  Material: INK_SACK
+  Data: 8
